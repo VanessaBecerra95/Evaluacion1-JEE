@@ -27,6 +27,7 @@
             <li> Apellido:  ${apellido}</li>
             <li> Contraseña:  ${contrasena}</li>
             <li> Dirección:  ${direccion}</li>
+            <li> Comuna:  ${comuna}</li>
             <li> Fecha de Nacimiento:  ${fechaNacimiento}</li>
             <li> Género:  ${genero}</li>
             <li> Redes Sociales:  ${redesSociales}</li>

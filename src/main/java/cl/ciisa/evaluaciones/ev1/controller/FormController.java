@@ -24,6 +24,7 @@ public class FormController extends HttpServlet {
         String apellido = req.getParameter("apellido");
         String contrasena = req.getParameter("contrasena");
         String direccion = req.getParameter("direccion");
+        String comuna = req.getParameter("comuna");
         String fechaNacimiento = req.getParameter("fechaNacimiento");
         String genero = req.getParameter("genero");
         String[] redesSociales = req.getParameterValues("redesSociales");
@@ -40,6 +41,7 @@ public class FormController extends HttpServlet {
         req.setAttribute("apellido", apellido);
         req.setAttribute("contrasena", contrasena);
         req.setAttribute("direccion", direccion);
+        req.setAttribute("comuna", comuna);
         req.setAttribute("fechaNacimiento", fechaNacimiento);
         req.setAttribute("genero", genero);
         req.setAttribute("redesSociales", redesSocialesSeleccionadas.toString());

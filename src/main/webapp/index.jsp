@@ -12,10 +12,10 @@
     <fieldset class="grid">
         <div>
             <label for="rut">RUT:</label> <input type="text" id="rut" name="rut" required placeholder="Ej: 9.999.999-9">
-            <label for="nombre">Nombre:</label> <input type="text" id="nombre" name="nombre" required>
+            <label for="apellido">Apellido:</label> <input type="text" id="apellido" name="apellido" required>
         </div>
         <div>
-            <label for="apellido">Apellido:</label> <input type="text" id="apellido" name="apellido" required>
+            <label for="nombre">Nombre:</label> <input type="text" id="nombre" name="nombre" required>
             <label for="contrasena">Contraseña:</label> <input type="password" id="contrasena" name="contrasena"
                                                                required>
         </div>
@@ -24,10 +24,11 @@
         <div>
             <label for="direccion">Dirección:</label> <input type="text" id="direccion" name="direccion" required
                                                              placeholder="Nombre de calle #123">
-            <label for="fechaNacimiento">Fecha de Nacimiento:</label> <input type="date" id="fechaNacimiento"
-                                                                             name="fechaNacimiento" required>
+            <label for="comuna">Comuna:</label> <input type="text" id="comuna" name="comuna" required>
         </div>
         <div>
+            <label for="fechaNacimiento">Fecha de Nacimiento:</label> <input type="date" id="fechaNacimiento"
+                                                                             name="fechaNacimiento" required>
             <label for="genero">Género:</label>
             <input type="text" id="genero" name="genero" required>
         </div>
